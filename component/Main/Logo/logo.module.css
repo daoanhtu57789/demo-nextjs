@@ -1,0 +1,24 @@
+.logo {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.h3 {
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: 0.4em; /*space char*/
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 700;
+}
+
+.h2 {
+    font-size: 100px;
+    color: #9094ff;
+}
+
+.p {
+    margin-top: -2rem;
+    font-size: 16px;
+    color: black;
+}
