@@ -2,16 +2,19 @@
   "name": "demo-nextjs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://daoanhtu57789.github.io/demo-nextjs/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
     "@zeit/next-less": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "antd": "^4.2.5",
+    "gh-pages": "^2.2.0",
     "mobx": "^5.15.4",
     "mobx-react": "^6.2.2",
     "next": "9.4.2",
