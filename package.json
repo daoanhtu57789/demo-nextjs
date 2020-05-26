@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p $PORT",
-    "predeploy": "npm run build"
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
