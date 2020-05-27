@@ -2,7 +2,6 @@
   "name": "demo-nextjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://daoanhtu57789.github.io/demo-nextjs/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
