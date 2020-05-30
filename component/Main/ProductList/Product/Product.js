@@ -14,7 +14,7 @@ export default function Product(props) {
           src={product.image}
           alt=""
           className={styles.image}
-          width="480px"
+          width="100%"
           height="288px"
         />
       </Link>
