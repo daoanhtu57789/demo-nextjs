@@ -1,0 +1,15 @@
+.container {
+    text-align: center;
+}
+
+.image {
+    width: 40rem;
+    height: 20rem;
+}
+
+.content {
+    margin: auto;
+    width: 40rem;
+    font-size: 1rem;
+    font-weight: 700;
+}

@@ -5,6 +5,8 @@ import Head from "next/head";
 import { observer, inject } from "mobx-react";
 import Link from "next/link";
 import { Button } from "antd";
+//css local
+import styles from "./news.module.css";
 
 export default inject("NewsStore")(
   observer(function NewsId(props) {
@@ -15,13 +17,22 @@ export default inject("NewsStore")(
     );
 
     return (
-      <div className="container">
+      <div className={styles.container}>
         <Head>
           <title>{router.query.id}</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <div>Đây là con cá : {news[0].title}</div>
+        <h1>
+          <strong>Loài Cá {news[0].title}</strong>
+        </h1>
+        <img src={news[0].image} className={styles.image} />
+        <p className={styles.content}>{news[0].content}</p>
+        <Link href="/newslist">
+          <Button type="primary">
+            <a>Quay Lại</a>
+          </Button>
+        </Link>
       </div>
     );
   })
