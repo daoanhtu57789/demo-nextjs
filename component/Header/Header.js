@@ -15,7 +15,7 @@ export default function Header({ href }) {
   const router = useRouter();
   return (
     <div className={styles.header}>
-      <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+      <Row >
         <Col span={3}></Col>
         <Col span={1}>
           <img
